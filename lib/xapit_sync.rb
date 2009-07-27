@@ -2,6 +2,7 @@ $:.unshift(File.dirname(__FILE__))
 require 'xapit_sync/membership'
 require 'xapit_sync/xapit_change'
 require 'xapit_sync/indexer'
+require 'open-uri'
 
 module XapitSync
   def self.override_syncing(&block)
